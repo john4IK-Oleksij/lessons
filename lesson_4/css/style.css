@@ -1,0 +1,91 @@
+@import url("reset.css");
+* {
+  /* color: yellowgreen; */
+}
+a {
+  /* color: darkorange; */
+}
+[class*="-item"] {
+  /* color: darkblue; */
+}
+[class*="title"] {
+  /* color: darkgoldenrod; */
+}
+#hutyn {
+  /* color: darkturquoise; */
+}
+#breben {
+  /* color: darkgreen; */
+}
+li.mount-item {
+  /* color: darkmagenta; */
+}
+a.contact-link {
+  /* color: red; */
+}
+.tour-text.text {
+  color: darksalmon;
+}
+.condition-text.text {
+  /* color: darkcyan; */
+}
+.contact-item,
+.tour-title {
+  /* color: darkred; */
+}
+.contacts-list .contact-link {
+  /* color: darkred; */
+}
+span,
+.header {
+  /* color: blue; */
+}
+.condition span {
+  /* color: darkviolet; */
+}
+
+.main h3 {
+  color: darkviolet;
+}
+.main .main-title {
+  /* color: darkviolet; */
+}
+.tour * {
+  color: darkblue;
+}
+.nav-list {
+  /* color: darkgreen; */
+}
+.nav-list > a {
+  /* color: darkgreen; */
+}
+.header > ul {
+  color: green;
+}
+.condition h3 {
+  /* color: gold; */
+}
+.condition > h3 {
+  color: gold;
+}
+.header ~ li {
+  /* color: darkorange; */
+}
+.main-item a {
+  /* color: darkmagenta; */
+}
+.main ~ h1 {
+  /* color: darkorange; */
+}
+.contact-item {
+  color: gold;
+}
+.equipment-title ~ p {
+  color: red;
+}
+.tour-title + p {
+  color: darkorange;
+}
+.mount-image + p {
+  color: darkred;
+}
