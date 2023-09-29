@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter&family=Poppins:wght@600&display=swap");
+
+@import url("reset.css");
+/* ============================================ */
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* =============== Jewelry =================== */
+.container {
+  width: 1169px;
+  margin: 0 auto;
+}
+.header {
+  font-family: "DM Serif Text";
+  font-size: 30px;
+  font-weight: 1.2;
+  text-transform: uppercase;
+  color: darkred;
+  margin-bottom: 20px;
+}
+
+.jewelry {
+  width: 1169px;
+  margin-bottom: 50px;
+  font-size: 0;
+}
+.main {
+  margin-bottom: 20px;
+}
+.content {
+  display: inline-block;
+  max-width: 562px;
+  margin-right: 38px;
+  padding: 21px 0;
+}
+.text-lable {
+  color: #d06b00;
+  font-family: "Inter";
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+.text-main {
+  color: #474747;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 1.8;
+}
+.title {
+  color: #0e333d;
+  font-family: "DM Serif Text";
+  font-size: 59px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.cart-image {
+  max-width: 273px;
+}
+.cart-image {
+  margin-right: 22px;
+}
+/* ============================================ */
+/*=================== Consulting ================ */
+.consulting {
+  max-width: 692px;
+}
+.meeting-image {
+  max-width: 100%;
+  margin-bottom: 37px;
+}
+.why {
+  margin-bottom: 42px;
+}
+.why-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 13px;
+  text-transform: capitalize;
+}
+.why p,
+.descr p,
+.benefits-list {
+  color: #7d7d7d;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 1.46;
+}
+.descr {
+  margin-bottom: 40px;
+}
+.descr-title {
+  color: #6b77e5;
+  margin-bottom: 12px;
+}
+.descr-title,
+.benefits-body h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+}
+.benefits {
+  font-size: 0;
+}
+.benefits-image {
+  width: 331px;
+  margin-right: 29px;
+}
+.benefits-body {
+  display: inline-block;
+  max-width: 332px;
+  font-size: 18px;
+}
+.benefits-body h4 {
+  color: #40ddb6;
+}
+.benefits-lable {
+  margin-bottom: 21px;
+}
+.benefits-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 25px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+.benefits-list li {
+  margin-bottom: 30px;
+}
+/* ============== */
+/* ============= Homework ==============*/
+
+.homework {
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgb(220, 220, 145);
+  /* box-sizing: content-box; */ /* 1230px*/
+}
+.block {
+  background-color: rgb(129, 179, 235);
+  padding: 20px 10px 40px 5px;
+  margin: 20px;
+}
+.inline {
+  background-color: rgb(220, 179, 139);
+  /* padding: 20px 10px 40px 5px; */
+  margin: -40px;
+}
+.image {
+  background-color: rgb(57, 133, 96);
+  /* display: none; */
+  /* padding: 20px 10px 40px; */
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-left: -30px;
+  margin-bottom: 40px;
+}
+.image-yellow {
+  margin-bottom: 50px;
+}
+.block-list {
+}
+.list-image {
+  /* font-size: 0; */
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.list-image li {
+  padding: 10px 20px;
+  width: 500px;
+  background-color: #a6a6a6;
+  /* display: inline-block; */
+  margin-bottom: 10px;
+  /* padding-top: 20px; */
+}
+.list-image li img {
+  /* height: 150px; */
+}
+.list-text {
+  background-color: #767dba;
+  /* margin-top: -100px;*/ /* зхлопування */
+}
+.list-text p {
+  margin-bottom: 15px;
+  height: 60px;
+  max-width: 500px;
+  /* overflow: hidden; */
+
+  /* overflow: hidden; */
+}
+.scroll {
+  /* overflow: scroll; */
+  overflow: auto;
+  /* overflow: visible; */
+}
+/* ===================== */
+
+.footer {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 1.2;
+  color: blue;
+  text-transform: uppercase;
+}
