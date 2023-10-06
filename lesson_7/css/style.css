@@ -1,0 +1,387 @@
+@import url("fonts.css");
+/* ================================== */
+@import url("reset.css");
+/* ======================================== */
+
+.container {
+  max-width: 1218px;
+  margin: 0 auto;
+}
+/* =============== header =========== */
+.header {
+  font-family: "ClickerScript", sans-serif;
+  font-size: 60px;
+  color: darkred;
+  margin-bottom: 50px;
+}
+
+/* ============== main =============== */
+/* ============== license ========== */
+
+.licence,
+.project,
+.clothing,
+.develop,
+.home-practice {
+  margin-bottom: 100px;
+}
+.license-info {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.decor {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+}
+.licence-lable {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #37393f;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.licence-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.21; /* 72.6px */
+}
+.icons-license h3,
+.photography-license h3,
+.fonts-license h3 {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  text-transform: capitalize; /* 48.4px */
+  margin-bottom: 11px;
+}
+.icons-license > p {
+  margin-bottom: 32px;
+}
+.icons-license > p,
+.photography-license > p,
+.fonts-license > p,
+.license-text {
+  color: #7d7d7d;
+  font-size: 18px;
+  line-height: 1.46; /* 26.314px */
+}
+.license-list-lable {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.license-link {
+  padding-left: 10px;
+  color: #40ddb6;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 400;
+}
+.icons-license,
+.photography-license {
+  margin-bottom: 100px;
+}
+
+.photography-license > p {
+  margin-bottom: 24px;
+}
+.photography-license-list > li {
+  margin-bottom: 24px;
+}
+.license-text {
+  color: #40ddb6;
+}
+.fonts-license > p a {
+  color: #40ddb6;
+}
+/* =================== project =================== */
+.project-container {
+  max-width: 830px;
+  margin: 0 auto;
+}
+.project-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27; /* 50.8px */
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+.project-text {
+  color: #7d7d7d;
+  font-size: 18px;
+  line-height: 1.46; /* 26.314px */
+}
+.project-text > p {
+  margin-bottom: 22px;
+}
+.project-list-mark > li,
+.project-list-order > li {
+  color: #7d7d7d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46; /* 26.314px */
+  padding-left: 16px;
+  margin-bottom: 22px;
+}
+.project-text,
+.project-list-mark,
+.project-list-order {
+  margin-bottom: 35px;
+}
+.project-list-mark li {
+  list-style: inside;
+}
+/* ================== clothing ====================== */
+.clothing-container {
+  max-width: 1219px;
+  margin: 0 auto;
+}
+/* .clothing-title > span {
+  display: inline-block;
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8a33fd;
+} */
+.clothing-title {
+  color: #3c4242;
+  font-family: "CoreSansC";
+  font-size: 28px;
+  font-weight: 600;
+  /* line-height: 1.2; 119.643% */
+  letter-spacing: 0.56px;
+  text-transform: capitalize;
+  border-left: 6px solid #8a33fd;
+  margin-left: -21px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+.clothing-cart > p {
+  color: #807d7e;
+  font-family: " Causten";
+  font-size: 20px;
+  line-height: 1.67; /* 167.5% */
+  letter-spacing: 0.4px;
+  margin-bottom: 20px;
+}
+.clothing-cart {
+  margin-bottom: 20px;
+}
+.clothing-cart-title {
+  color: #807d7e;
+  font-family: "CoreSansC";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.67; /* 167.5% */
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.clothing-cart > p span {
+  font-weight: 700;
+}
+.clothing-link {
+  color: #807d7e;
+  font-family: "CoreSansC";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.67; /* 167.5% */
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+/* ================== Develop =============== */
+.develop-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.develop-body {
+  display: inline-block;
+  max-width: 503px;
+  margin-top: 70px;
+  margin-right: 99px;
+}
+.develop-lable,
+.develop-title,
+.develop-text {
+  color: #d58417;
+  font-family: "Cormorant Infant";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.develop-lable {
+  text-transform: uppercase;
+}
+.develop-title {
+  color: #000;
+  font-size: 64px;
+  margin-bottom: 31px;
+  text-transform: capitalize;
+}
+.develop-text {
+  color: #606060;
+  font-size: 30px;
+  line-height: 1.4; /* 42px */
+}
+/* ============= Develop(images) ====================== */
+.develop-images {
+  display: inline-block;
+  vertical-align: top;
+}
+.small {
+  display: inline-block;
+  margin-top: -85px;
+  font-size: 0;
+  margin-right: 30px;
+  border-radius: 235px;
+  border: 1px solid #502203;
+  width: 177px;
+  height: 336px;
+}
+.small-image {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 235px;
+  padding-top: 14px;
+  margin-left: -10px;
+}
+.big {
+  display: inline-block;
+  font-size: 0;
+  border-radius: 235px;
+  border: 1px solid #502203;
+  width: 307px;
+  height: 506px;
+}
+.big-image {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 235px;
+  margin-left: -10px;
+  padding-top: 19px;
+}
+/* =============== practice ==================== */
+
+.home-practice {
+  font-family: "Cormorant Infant", serif;
+  color: rgb(127, 89, 42);
+  font-size: 24px;
+  font-weight: 700;
+}
+.practice-block {
+  padding: 15px 20px;
+  background-color: #e5d3bb;
+}
+.text1 {
+  /* display: inline-block; */
+  max-width: 500px;
+  padding: 5px;
+  margin-bottom: 40px;
+  /* border: 3px solid green; */
+  /* border: 3px dotted green; */
+  /* border: 3px dashed green; */
+  border: 6px solid green;
+}
+.text2 {
+  max-width: 500px;
+  padding: 5px;
+  margin-bottom: 40px;
+  border-top: 6px double green;
+  border-right: none;
+  border-bottom: 6px double green;
+  border-left: none;
+  border-radius: 20px;
+}
+.text3 {
+  max-width: 500px;
+  padding: 15px;
+  margin-bottom: 40px;
+  border: 5px solid red;
+  border-radius: 20px;
+  outline: 10px dotted rgb(36, 20, 20);
+}
+.image-block {
+  padding: 20px;
+  border: 3px solid blue;
+  border-radius: 45px;
+  margin-bottom: 40px;
+}
+.image-block img {
+  max-width: 200px;
+  margin-right: 20px;
+  border: 2px solid red;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(192, 109, 51);
+  /* box-shadow: inset 5px 5px 5px rgb(192, 109, 51); */
+}
+.image-border-test {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  border: 3px solid rgb(0, 38, 255);
+  border-radius: 50px;
+  box-shadow: -3px -3px 10px rgb(0, 195, 255);
+}
+.image-practice1 {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  border-radius: 50px;
+  border: 1px solid rgb(65, 65, 65);
+  margin-top: 20px;
+  margin-left: 25px;
+  box-shadow: 5.5px 7.4px 7.9px rgba(0, 0, 0, 0.102),
+    19px 25.7px 31.6px rgba(0, 0, 0, 0.123), 62px 84px 93px rgba(0, 0, 0, 0.24);
+  /* visibility: hidden; */
+}
+.practice-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 3px solid rgb(255, 0, 43);
+  /* box-shadow: inset 5px 5px 5px rgb(192, 109, 51); */
+  box-shadow: 3px 3px 10px rgb(227, 104, 104);
+}
+.link-test {
+  color: green;
+  margin-left: 100px;
+  padding: 10px;
+  opacity: 0.4;
+  border-bottom: 5px solid rgb(151, 25, 151);
+  border-radius: 20px;
+}
+.practice-block span {
+  font-family: "ClickerScript";
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: 300px;
+  padding: 0 15px;
+  background-color: rgb(29, 85, 131);
+  /* border-top: 5px solid gray;
+  border-left: 5px solid gray; */
+  border-bottom: 1px solid rgb(0, 23, 151);
+  border-right: 1px solid rgb(0, 23, 151);
+  border-radius: 10px;
+  box-shadow: 5.7px 5.7px 2.1px rgba(0, 0, 0, 0.182),
+    17.6px 17.6px 9.4px rgba(0, 0, 0, 0.198),
+    39.6px 39.6px 28.6px rgba(0, 0, 0, 0.229),
+    100px 100px 100px rgba(0, 0, 0, 0.4);
+  /* visibility: hidden; */
+}
+/* =================== footer =========== */
+.footer {
+  font-family: "ClickerScript", sans-serif;
+  font-size: 60px;
+  color: darkred;
+}
