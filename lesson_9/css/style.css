@@ -1,0 +1,534 @@
+@import url("fonts.css");
+@import url("reset.css");
+/* ========================= */
+.header {
+  margin-bottom: 50px;
+}
+.main {
+  margin-bottom: 50px;
+}
+/* ======== Game ====== */
+.game {
+  margin-bottom: 50px;
+}
+.game-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.game-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: darkcyan;
+  margin-bottom: 30px;
+}
+.game-blocks {
+  min-height: 650px;
+  font-size: 0;
+  /* border: 1px solid rgb(0, 0, 0); */
+  background: url("../img/pattern-school.jpeg") 0 0 / 400px 400px repeat;
+  /* opacity: 0.5; */
+}
+.block-1 {
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+}
+.block-1:hover + .block-2 {
+  width: 50px;
+  height: 50px;
+  visibility: visible;
+}
+.block-2 {
+  width: 50px;
+  height: 50px;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-2:hover {
+  width: 74%;
+  visibility: visible;
+}
+.block-3 {
+  background-color: yellowgreen;
+  width: 50px;
+  height: 50px;
+  margin-left: 70%;
+  visibility: hidden;
+}
+.block-2:hover + .block-3 {
+  visibility: visible;
+}
+.block-3:hover {
+  visibility: visible;
+}
+.block-4 {
+  width: 74%;
+  height: 50px;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-3:hover + .block-4 {
+  visibility: visible;
+}
+.block-4:hover {
+  visibility: visible;
+}
+.block-4:hover + .block-5 {
+  visibility: visible;
+}
+.block-5 {
+  width: 25px;
+  height: 100px;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-5:hover {
+  visibility: visible;
+}
+.block-5:hover + .block-6 {
+  visibility: visible;
+}
+.block-6 {
+  width: 50%;
+  height: 50px;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-6:hover {
+  visibility: visible;
+}
+.block-6:hover + .block-7 {
+  visibility: visible;
+}
+.block-7 {
+  width: 50px;
+  height: 50px;
+  margin-left: 45.8%;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-7:hover {
+  visibility: visible;
+}
+.block-7:hover + .block-8 {
+  visibility: visible;
+}
+.block-8 {
+  width: 25%;
+  height: 25px;
+  margin-left: 25%;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-8:hover {
+  visibility: visible;
+}
+.block-8:hover + .block-9 {
+  visibility: visible;
+}
+.block-9 {
+  margin-left: 25%;
+  width: 25px;
+  height: 100px;
+  background-color: yellowgreen;
+  visibility: hidden;
+}
+.block-9:hover {
+  visibility: visible;
+}
+.block-9:hover + .game-text {
+  visibility: visible;
+}
+.game-text {
+  background-color: rgb(242, 199, 191);
+  width: 700px;
+  margin: 0 auto;
+  color: rgb(1, 81, 28);
+  font-size: 24px;
+  text-align: center;
+  visibility: hidden;
+}
+.game-text:hover {
+  visibility: visible;
+}
+/* ============ projects-figma ======== */
+/*====== Consulting ====== */
+.study {
+  margin-bottom: 50px;
+}
+.consulting {
+  padding: 0 10px;
+  max-width: 702px;
+  margin: 0 auto;
+}
+.consulting-descr {
+  margin-bottom: 40px;
+}
+.consulting-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 3px; /* 38.1px */
+}
+.consulting-descr p,
+.consulting-asked p {
+  color: #7d7d7d;
+  font-size: 18px;
+  line-height: 1.46; /* 26.314px */
+}
+.consulting-title + p {
+  margin-bottom: 42px;
+}
+.consulting-descr .consulting-label {
+  color: #6b77e5;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27; /* 25.4px */
+  margin-bottom: 12px;
+}
+.consulting-label:last-child {
+  margin: 0;
+}
+.consulting-benefits {
+  margin-bottom: 50px;
+  max-width: 692px;
+  width: 100%;
+}
+.benefits-image {
+  display: inline-block;
+  font-size: 0;
+  max-width: 331px;
+  width: 100%;
+  vertical-align: top;
+  overflow: clip;
+  margin-right: 18px;
+}
+.benefits-image img {
+  max-width: 331px;
+  width: 100%;
+  vertical-align: top;
+  overflow: clip;
+  margin-right: 18px;
+}
+.benefits-body {
+  display: inline-block;
+  max-width: 332px;
+  margin-left: -5px;
+}
+.benefits-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.27; /* 31.75px */
+  margin-bottom: 15px;
+}
+.benefits-title + p {
+  color: #40ddb6;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27; /* 25.4px */
+  margin-bottom: 21px;
+}
+.benefits-item {
+  color: #7d7d7d;
+  font-size: 18px;
+}
+.benefits-item:before {
+  content: "";
+  background: url("../img/homework/cheked-icon.svg") center / 27px 27px
+    no-repeat;
+  vertical-align: sub;
+  width: 27px;
+  height: 27px;
+}
+.benefits-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.consulting-asked {
+  margin-bottom: 50px;
+}
+.asked-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27; /* 38.1px */
+  margin-bottom: 4px;
+}
+/* ============= about ========= */
+.about-block {
+  margin-bottom: 50px;
+}
+.about {
+  max-width: 673px;
+  margin: 0 auto;
+}
+.about-body {
+  margin-bottom: 48px;
+}
+.about-lable {
+  color: #37393f;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.about-lable::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+}
+.about-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21; /* 48.4px */
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.about-body > p,
+.about-item > p {
+  color: #7d7d7d;
+  font-size: 18px;
+  line-height: 1.46; /* 26.314px */
+}
+.about-body > p:not(:last-child) {
+  margin-bottom: 16px;
+}
+.about-item {
+  /* display: inline-block; */
+  border: 1px solid #e3e3e3;
+  padding: 28px 41px 28px 38px;
+}
+.about-item > h4::before {
+  display: inline-block;
+  content: "";
+  background: url("../img/homework/cheked-icon.svg") 0 0 / cover no-repeat;
+  width: 27px;
+  height: 27px;
+  vertical-align: sub;
+  margin-right: 19px;
+}
+.about-item > p {
+  margin-left: 46px;
+}
+.about-item:not(:last-child) {
+  margin-bottom: 31px;
+}
+.about-item > h4 {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.about-list {
+  margin-bottom: 48px;
+}
+.about-link {
+  background-color: #6b77e5;
+  display: inline-block;
+  padding: 21px 45px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.5s ease 0s;
+}
+.about-link:hover {
+  background-color: #4c5efc;
+}
+/* =============== process =========== */
+.process-block {
+  margin-bottom: 50px;
+}
+.process {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.process-main {
+  margin-bottom: 78px;
+}
+.process-lable {
+  color: #37393f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.process-lable::before {
+  display: inline-block;
+  content: "";
+  background-color: #40ddb6;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+.process-title {
+  color: #37393f;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21; /* 48.4px */
+  text-transform: capitalize;
+}
+.process-carts {
+  font-size: 0;
+}
+.carts-item {
+  display: inline-block;
+  max-width: 386px;
+  text-align: center;
+  background-color: #f4f4f4;
+  /* padding: -14px 43px 58px 43px; */
+}
+.carts-item:not(:last-child) {
+  margin-right: 31px;
+}
+.carts-item > h4 {
+  color: #37393f;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.27; /* 31.75px */
+  margin-bottom: 16px;
+}
+.cart-1 > h4::before {
+  display: block;
+  content: "";
+  background: url("../img/homework/date-icon.svg") 50% 0 / 72px 72px no-repeat;
+  width: 386px;
+  height: 72px;
+  margin-bottom: 22px;
+  margin-top: -36px;
+}
+.cart-2 > h4::before {
+  /* display: block; */
+  content: "";
+  background: url("../img/homework/puzzle-icon.svg") 50% 0 / 72px 72px no-repeat;
+  width: 386px;
+  height: 72px;
+  margin-bottom: 22px;
+  margin-top: -36px;
+}
+.cart-3 > h4::before {
+  display: block;
+  content: "";
+  background: url("../img/homework/service-icon.svg") 50% 0 / 72px 72px
+    no-repeat;
+  width: 386px;
+  height: 72px;
+  margin-bottom: 22px;
+  margin-top: -36px;
+}
+.carts-item > p {
+  color: #7d7d7d;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.46; /* 26.314px */
+  margin-bottom: 37px;
+}
+.carts-link {
+  display: inline-block;
+  color: #6b77e5;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 58px;
+}
+.carts-link:hover {
+  color: #1d33fd;
+}
+/* ============= Jewels ========= */
+.jewels-block {
+  margin-bottom: 50px;
+}
+.jewels {
+  max-width: 1210px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.jewels-title {
+  display: inline-block;
+  max-width: 488px;
+  color: #000;
+  font-family: "Cormorant Infant";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.15; /* 69px */
+  margin-right: -7px;
+}
+.jewels-cart-1 {
+  display: inline-block;
+  max-width: 334px;
+  vertical-align: middle;
+  margin-right: 55px;
+}
+.jewels-cart-1 p {
+  color: #000;
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4; /* 33.6px */
+}
+.cart-1-image {
+  display: inline-block;
+  max-width: 334px;
+  height: 381px;
+  border: 1px solid #000;
+  margin-bottom: 25px;
+}
+.cart-1-image img {
+  display: inline-block;
+  max-width: 334px;
+  width: 100%;
+  height: 381px;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+.jewels-cart-2 {
+  display: inline-block;
+  max-width: 334px;
+  vertical-align: middle;
+}
+
+.jewels-subtitle {
+  color: #000;
+  font-family: "Cormorant Infant";
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.13; /* 51.98px */
+}
+.cart-2-image {
+  display: inline-block;
+  max-width: 334px;
+  height: 381px;
+  border: 1px solid #000;
+  margin-bottom: 25px;
+}
+.cart-2-image img {
+  display: inline-block;
+  max-width: 334px;
+  width: 100%;
+  height: 381px;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.jewels-cart-2 p {
+  color: #000;
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4; /* 33.6px */
+}
