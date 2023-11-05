@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>lesson-12-position</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header header--container">
+         <div class="">
+            <div class="nav">
+               <p class="logo">Logo</p>
+               <ul class="menu">
+                  <li class="menu__item">
+                     <a href="#" class="menu__link menu__link--select">element level 1</a>
+                     <ul class="sub-menu">
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                        <li class="sub-menu__item ">
+                           <a href="#" class="sub-menu__link sub-menu__link--select">element level 2</a>
+                           <ul class="list-menu">
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link menu__link--select">element level 1</a>
+                     <ul class="sub-menu">
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link menu__link--select">element level 1</a>
+                     <ul class="sub-menu">
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link menu__link--select">element level 1</a>
+                     <ul class="sub-menu sub-menu--select">
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link sub-menu__link--select">element level 2</a>
+                           <ul class="list-menu list-menu--select-last">
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                              <li class="list-menu__item">
+                                 <a href="#" class="list-menu__link">element level 3</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                        <li class="sub-menu__item">
+                           <a href="#" class="sub-menu__link">element level 2</a>
+                           <!-- <ul class="list-menu">
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                           <li class="list-menu__item">
+                              <a href="#" class="list-menu__link">element level 3</a>
+                           </li>
+                        </ul> -->
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__body">
+            <div class="side">
+               <h2 class="side__title">Lorem-lorem</h2>
+               <ul class="side__menu">
+                  <li class="side__item">
+                     Lorem ipsum dolor sit.
+                  </li>
+                  <li class="side__item">
+                     Lorem ipsum dolor sit.
+                  </li>
+                  <li class="side__item">
+                     Lorem ipsum dolor sit.
+                  </li>
+                  <li class="side__item">
+                     Lorem ipsum dolor sit.
+                  </li>
+                  <li class="side__item">
+                     Lorem ipsum dolor sit.
+                  </li>
+               </ul>
+               <p>Molestias eos animi impedit dolor esse officiis nostrum quasi hic exercitationem quod tenetur rerum
+                  possimus minus illo voluptatibus necessitatibus ex, dolorum, iusto ducimus cum beatae! Impedit
+                  provident
+                  odio, laudantium sapiente corrupti, doloremque deleniti accusamus pariatur necessitatibus et quod
+                  eveniet
+                  nobis fugiat corporis voluptate optio fuga enim, inventore reprehenderit non. Iusto placeat quae
+                  nesciunt
+                  accusantium ipsa natus quibusdam, sunt, odit, mollitia numquam culpa. Nobis pariatur laboriosam
+               </p>
+            </div>
+            <div class="content">
+               <p>LOREM ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi cupiditate ratione, similique
+                  velit, tempora veritatis architecto dolorum assumenda dolorem explicabo suscipit voluptas. Sequi ex
+                  molestias accusamus, obcaecati accusantium laborum distinctio aut nulla odit facilis, reprehenderit
+                  assumenda minima. Ipsam, et debitis? Nam aspernatur neque ab, ex ad aperiam libero cum iusto repellat
+                  reiciendis laborum quia, voluptate inventore! Cumque illo quos velit amet tempore ex ullam voluptatem
+                  quas et ratione recusandae, similique soluta aliquid id beatae eum, sit modi nobis doloribus magni
+                  culpa
+                  ab totam necessitatibus? Molestiae ullam, ex voluptates dolores odio dolorem quasi iusto, quibusdam
+                  impedit, officiis quisquam eligendi suscipit saepe praesentium. Saepe labore, dolore eius aperiam sed
+                  deleniti rem repellendus iusto expedita omnis enim aspernatur quidem exercitationem. Unde sint
+                  possimus
+                  omnis voluptatibus dolorum magni ratione quis obcaecati ut, vel vitae ipsam dicta dignissimos saepe
+                  error
+                  dolores! Eaque nihil eos in, tempora temporibus, ipsa exercitationem pariatur quod maxime enim
+                  cupiditate
+                  cumque rerum placeat nostrum dicta dolorem dolore ad saepe. Soluta amet in itaque autem, earum ipsum
+                  ullam voluptatibus sapiente recusandae numquam ipsa pariatur enim dolor impedit suscipit nemo, tempore
+                  rerum eum. Impedit sint nihil veritatis in asperiores fuga nobis tenetur eum, neque error optio quo?
+                  Quae
+                  repudiandae architecto repellendus labore rem impedit, inventore nobis quia? Assumenda officiis odit
+                  aliquam nesciunt commodi cupiditate reprehenderit asperiores nemo autem, expedita mollitia quaerat,
+                  explicabo magni officia harum! Repudiandae dolore ducimus distinctio consectetur non officia,
+                  architecto
+                  veritatis et repellat? Corrupti, excepturi explicabo eligendi veniam facilis aliquam voluptates quis
+                  odit, dolorum consequatur repellat debitis. Esse laboriosam neque ullam corrupti, fuga impedit?
+                  Dolorem
+                  sequi laudantium iste sunt exercitationem ipsa, similique provident illo enim reprehenderit
+                  accusantium
+                  veniam cupiditate totam cum illum reiciendis numquam, explicabo, aut incidunt. Sapiente, quos neque.
+                  Ullam at minus aperiam dolorum commodi cupiditate optio sint aspernatur ratione? Ut error optio ad
+                  maiores quaerat, voluptate qui cupiditate esse enim ratione accusantium vero accusamus velit? Libero
+                  tempore excepturi fuga amet, minus impedit culpa rem consequuntur doloremque architecto at deleniti
+                  optio
+                  dolores iusto sapiente animi atque? Aut cumque, molestias alias neque, aspernatur fugit voluptatem
+                  necessitatibus sed quibusdam reiciendis pariatur expedita aliquam, quasi nobis odit temporibus? Quae
+                  sint
+                  debitis officiis consequatur, accusantium iusto fugit, quaerat assumenda perspiciatis, laboriosam
+                  harum
+                  esse in. Debitis animi veniam corrupti necessitatibus, quisquam error nulla minus, temporibus odit id
+                  dolorem dolorum unde voluptas autem fuga in cupiditate. Tempora ipsa repudiandae a aspernatur dolor
+                  facere et vitae dolore, voluptatem, delectus cum eum. Itaque corrupti illo accusantium?</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi cupiditate ratione, similique
+                  velit, tempora veritatis architecto dolorum assumenda dolorem explicabo suscipit voluptas. Sequi ex
+                  molestias accusamus, obcaecati accusantium laborum distinctio aut nulla odit facilis, reprehenderit
+                  assumenda minima. Ipsam, et debitis? Nam aspernatur neque ab, ex ad aperiam libero cum iusto repellat
+                  reiciendis laborum quia, voluptate inventore! Cumque illo quos velit amet tempore ex ullam voluptatem
+                  quas et ratione recusandae, similique soluta aliquid id beatae eum, sit modi nobis doloribus magni
+                  culpa
+                  ab totam necessitatibus? Molestiae ullam, ex voluptates dolores odio dolorem quasi iusto, quibusdam
+                  impedit, officiis quisquam eligendi suscipit saepe praesentium. Saepe labore, dolore eius aperiam sed
+                  deleniti rem repellendus iusto expedita omnis enim aspernatur quidem exercitationem. Unde sint
+                  possimus
+                  omnis voluptatibus dolorum magni ratione quis obcaecati ut, vel vitae ipsam dicta dignissimos saepe
+                  error
+                  dolores! Eaque nihil eos in, tempora temporibus, ipsa exercitationem pariatur quod maxime enim
+                  cupiditate
+                  cumque rerum placeat nostrum dicta dolorem dolore ad saepe. Soluta amet in itaque autem, earum ipsum
+                  ullam voluptatibus sapiente recusandae numquam ipsa pariatur enim dolor impedit suscipit nemo, tempore
+                  rerum eum. Impedit sint nihil veritatis in asperiores fuga nobis tenetur eum, neque error optio quo?
+                  Quae
+                  repudiandae architecto repellendus labore rem impedit, inventore nobis quia? Assumenda officiis odit
+                  aliquam nesciunt commodi cupiditate reprehenderit asperiores nemo autem, expedita mollitia quaerat,
+                  explicabo magni officia harum! Repudiandae dolore ducimus distinctio consectetur non officia,
+                  architecto
+                  veritatis et repellat? Corrupti, excepturi explicabo eligendi veniam facilis aliquam voluptates quis
+                  odit, dolorum consequatur repellat debitis. Esse laboriosam neque ullam corrupti, fuga impedit?
+                  Dolorem
+                  sequi laudantium iste sunt exercitationem ipsa, similique provident illo enim reprehenderit
+                  accusantium
+                  veniam cupiditate totam cum illum reiciendis numquam, explicabo, aut incidunt. Sapiente, quos neque.
+                  Ullam at minus aperiam dolorum commodi cupiditate optio sint aspernatur ratione? Ut error optio ad
+                  maiores quaerat, voluptate qui cupiditate esse enim ratione accusantium vero accusamus velit? Libero
+                  tempore excepturi fuga amet, minus impedit culpa rem consequuntur doloremque architecto at deleniti
+                  optio
+                  dolores iusto sapiente animi atque? Aut cumque, molestias alias neque, aspernatur fugit voluptatem
+                  necessitatibus sed quibusdam reiciendis pariatur expedita aliquam, quasi nobis odit temporibus? Quae
+                  sint
+                  debitis officiis consequatur, accusantium iusto fugit, quaerat assumenda perspiciatis, laboriosam
+                  harum
+                  esse in. Debitis animi veniam corrupti necessitatibus, quisquam error nulla minus, temporibus odit id
+                  dolorem dolorum unde voluptas autem fuga in cupiditate. Tempora ipsa repudiandae a aspernatur dolor
+                  facere et vitae dolore, voluptatem, delectus cum eum. Itaque corrupti illo accusantium?</p>
+               <div class="content__image">
+                  <img src="img/100-bank-notes-bills-2099.jpg" alt="banknotes">
+                  <img src="img/1389509286_12.jpg" alt="city">
+                  <img src="img/16324210-R3L8T8D-1000-22_2.jpg" alt="flower">
+               </div>
+               <div class="content__image">
+                  <img src="img/387869917_190712064048018_5995312528819707448_n.jpg" alt="banknotes">
+                  <img src="img/1389509286_12.jpg" alt="city">
+                  <img src="img/16324210-R3L8T8D-1000-22_2.jpg" alt="flower">
+               </div>
+               <p>Molestias eos animi impedit dolor esse officiis nostrum quasi hic exercitationem quod tenetur rerum
+                  possimus minus illo voluptatibus necessitatibus ex, dolorum, iusto ducimus cum beatae! Impedit
+                  provident
+                  odio, laudantium sapiente corrupti, doloremque deleniti accusamus pariatur necessitatibus et quod
+                  eveniet
+                  nobis fugiat corporis voluptate optio fuga enim, inventore reprehenderit non. Iusto placeat quae
+                  nesciunt
+                  accusantium ipsa natus quibusdam, sunt, odit, mollitia numquam culpa. Nobis pariatur laboriosam
+               </p>
+               <p>Molestias eos animi impedit dolor esse officiis nostrum quasi hic exercitationem quod tenetur rerum
+                  possimus minus illo voluptatibus necessitatibus ex, dolorum, iusto ducimus cum beatae! Impedit
+                  provident
+                  odio, laudantium sapiente corrupti, doloremque deleniti accusamus pariatur necessitatibus et quod
+                  eveniet
+                  nobis fugiat corporis voluptate optio fuga enim, inventore reprehenderit non. Iusto placeat quae
+                  nesciunt
+                  accusantium ipsa natus quibusdam, sunt, odit, mollitia numquam culpa. Nobis pariatur laboriosam
+               </p>
+               <p>Molestias eos animi impedit dolor esse officiis nostrum quasi hic exercitationem quod tenetur rerum
+                  possimus minus illo voluptatibus necessitatibus ex, dolorum, iusto ducimus cum beatae! Impedit
+                  provident
+                  odio, laudantium sapiente corrupti, doloremque deleniti accusamus pariatur necessitatibus et quod
+                  eveniet
+                  nobis fugiat corporis voluptate optio fuga enim, inventore reprehenderit non. Iusto placeat quae
+                  nesciunt
+                  accusantium ipsa natus quibusdam, sunt, odit, mollitia numquam culpa. Nobis pariatur laboriosam
+               </p>
+            </div>
+         </div>
+         <div class="page__image image-page">
+            <div class="image-page__container">
+               <div class="image-page__bg">
+                  <img src="img/100-bank-notes-bills-2099.jpg" alt="money">
+                  <div class="image-page__social">
+                     <a href="#"><img src="img/fb.svg" alt="facebook"></a>
+                     <a href="#"><img src="img/insta.svg" alt="instagram"></a>
+                     <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
+                  </div>
+                  <div class="image-page__cart">
+                     <h3 class="image-page__title">
+                        pocket money
+                     </h3>
+                     <p class="image-page__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatem mollitia perspiciatis amet magni
+               necessitatibus obcaecati in natus iste, voluptatum harum incidunt magnam voluptate animi iusto nam quas!
+               Excepturi velit reprehenderit nemo, cupiditate quidem nesciunt doloribus autem est distinctio amet
+               eligendi
+               eaque iusto obcaecati repudiandae architecto! Quae, eius iste ad maiores asperiores alias dolor vero
+               veniam
+               soluta voluptates accusantium, similique voluptas nam et saepe voluptatum adipisci repellendus eos
+               accusamus
+               illum. Iure expedita tempore impedit enim ducimus voluptate facere voluptatem aliquid reprehenderit unde
+               dolorem eum debitis odio, consequuntur porro dicta vel laborum natus quos facilis iusto fugit voluptatum
+               maiores. Accusantium vitae blanditiis, nemo esse, eos dignissimos nostrum quia fugit aspernatur
+               voluptatum
+               dolor, quasi aut mollitia ea. Asperiores quod rem voluptates doloremque commodi sit, animi similique odit
+               tenetur neque ullam nihil iusto a saepe tempore! Qui, alias veritatis dolores reiciendis eligendi quis
+               sunt
+               fugit quisquam aperiam aut illum fugiat exercitationem incidunt consequatur commodi sint, sapiente
+               accusamus?
+               Earum cum qui odio repellat corporis praesentium delectus! Laudantium quis doloribus cum architecto
+               maiores.
+               Quia provident ea ad cum nulla reiciendis rerum facere, sequi excepturi error quis harum nesciunt
+               recusandae
+               aliquid repellendus dolorum quaerat nemo ullam vero eius illum nostrum quos necessitatibus. Quasi
+               exercitationem iusto unde? Accusamus aperiam molestiae impedit deleniti! Deserunt, quo quae? Impedit
+               consectetur vel exercitationem eos amet quos eius saepe nemo, voluptatem, laudantium atque assumenda ea
+               autem
+               perferendis dolores temporibus repudiandae aspernatur provident tempora ducimus totam! Quo aut obcaecati
+               id
+               recusandae quisquam veniam doloribus minima consequatur hic, maiores totam dolorem magni omnis culpa,
+               asperiores cupiditate similique sequi accusantium odio nesciunt corporis. Cum itaque minus voluptates
+               odit
+               quos
+               sint quod perspiciatis incidunt ipsum aperiam doloribus nesciunt vel deleniti distinctio illo, illum
+               natus
+               sapiente, explicabo ab. Dicta necessitatibus excepturi dignissimos similique cumque consequuntur placeat
+               quia
+               rem nesciunt fuga suscipit doloremque officia nisi soluta, ducimus rerum repudiandae repellendus deleniti
+               voluptatibus vitae. Asperiores quasi vero nemo voluptates sapiente fugit quas est dolorum, iste illo
+               repellat
+               possimus distinctio perspiciatis quae hic nisi accusamus numquam quibusdam aperiam accusantium porro
+               tempore
+               nam corrupti! Debitis saepe temporibus aliquam, rerum animi odio magni laudantium, perspiciatis fuga nemo
+               cumque cum placeat incidunt? Officia odio voluptatum repellat. Repellendus distinctio, provident porro
+               nisi
+               voluptates inventore illo in ad voluptatibus et sint officia quibusdam id minus tenetur a sed ducimus,
+               quas
+               quia ipsum sunt est deserunt quos quae. Aperiam recusandae illum id voluptate, expedita omnis quibusdam
+               laudantium itaque quo, quia laboriosam natus commodi, modi architecto eligendi! Dolores fugiat quidem,
+               officiis
+               dignissimos soluta non ratione delectus minima quod, iure, asperiores eum aspernatur praesentium nihil ad
+               assumenda deleniti incidunt perferendis. Cumque dolor facere cum ducimus vitae tempora sint eligendi est
+               nisi
+               repudiandae delectus tenetur architecto qui libero obcaecati doloribus, ullam molestias, enim eaque odio
+               reiciendis veniam, perferendis voluptatem. Cupiditate fuga adipisci aliquam facilis corrupti pariatur
+               accusantium dicta exercitationem aspernatur sed, debitis voluptate! Dolore maiores at vero, corporis
+               distinctio
+               iusto sunt quidem consequatur, architecto ipsa libero dolores impedit. Illum nihil, ipsum facilis eius,
+               doloribus quis temporibus sint fugit qui rem impedit atque soluta? Molestiae tempore architecto facere
+               blanditiis perspiciatis iusto, tenetur nisi repellat velit ut officiis, quis debitis saepe numquam,
+               similique
+               labore sit sequi recusandae consequatur unde eius exercitationem incidunt totam facilis? Cumque, ducimus.
+               Necessitatibus odit, enim nobis numquam corrupti tenetur non sint? Est deleniti magnam dicta eveniet ab
+               voluptas eligendi ut ullam minima illum sapiente aperiam asperiores fugit error sunt laudantium quia
+               ducimus
+               libero, expedita earum non delectus, saepe mollitia dolores? Sint adipisci recusandae doloribus nobis eos
+               architecto ipsa ipsum nam, expedita, dolor excepturi a tempora! Veniam id esse quidem, iste repellat
+               incidunt
+               nihil nemo reprehenderit itaque, libero cumque quod fugit culpa suscipit rem ullam in officiis quo! Qui
+               nobis
+               ratione quisquam ab totam explicabo? Pariatur voluptatibus ratione consequuntur explicabo, eaque
+               accusamus
+               unde, placeat accusantium molestiae repudiandae hic obcaecati ab provident natus ut! Corrupti eum
+               provident
+               reprehenderit eius dignissimos ad deserunt commodi. Eligendi libero, aut enim omnis itaque aliquam
+               veritatis
+               exercitationem unde architecto, animi voluptatem repellendus? Voluptatibus, commodi magni! Libero quia,
+               sequi,
+               debitis aspernatur quam expedita quo quidem, minus consectetur in earum commodi consequatur odio nostrum
+               repudiandae reprehenderit fugiat praesentium? Qui itaque eius adipisci. Recusandae vel qui deleniti totam
+               nisi,
+               error quibusdam dignissimos provident rerum dolor quia culpa modi ab neque ad aliquid velit quae
+               consequatur
+               illo labore ullam repellat quod? Dolor possimus sequi architecto sapiente nesciunt repudiandae maxime
+               magni
+               rem
+               quae illum alias, doloremque nulla quaerat, similique deleniti in error eaque at cupiditate. Commodi
+               molestiae
+               voluptate nam reiciendis, quis ullam quas ab voluptatum alias. Doloremque quidem voluptatum enim maiores,
+               veniam labore unde? Totam tempora animi saepe nesciunt voluptates optio molestiae dignissimos iste
+               adipisci
+               ea
+               quos, aspernatur facilis, quisquam hic aliquam! Quaerat magni fugiat vel, inventore qui nisi
+               exercitationem
+               consectetur ipsam iste expedita. Vel, dolores aliquam, sit placeat, quasi eius harum illo accusantium
+               atque
+               repudiandae mollitia optio cupiditate ea culpa omnis est totam tempora modi magnam non. Nobis pariatur
+               excepturi vitae ipsam itaque optio officiis, voluptatum sequi id similique magnam officia temporibus
+               libero,
+               quis voluptas porro deleniti tenetur dolorum explicabo, doloremque ipsa! Labore, dolorum! Et modi
+               laboriosam
+               maiores voluptates ea aliquid tenetur provident. Animi aut ea explicabo corrupti, ex assumenda quo illum
+               nihil</p>
+         </div>
+         <div class="page__cart cart-page">
+            <div class="cart-page__container">
+               <div class="cart-page__top">
+                  <div class="cart-page__block  cart">
+                     <img src="img/home/image-1.jpg" alt="director-photo">
+                     <div class="cart__social social-block">
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Insta.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Fb.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/twitter.svg" alt="twitter">
+                        </a>
+                     </div>
+                     <div class="cart__content content-cart">
+                        <h3 class="content-cart__title"><a href="#">Natasha Kelvin</a>
+                        </h3>
+                        <p class="content-cart__text">Managing Director</p>
+                     </div>
+                  </div>
+                  <div class="cart-page__block  cart">
+                     <img src="img/home/Image-2.jpg" alt="director-photo">
+                     <div class="cart__social social-block">
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Insta.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Fb.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/twitter.svg" alt="twitter">
+                        </a>
+                     </div>
+                     <div class="cart__content content-cart">
+                        <h3 class="content-cart__title"><a href="#">David Simpson</a>
+                        </h3>
+                        <p class="content-cart__text">Designer</p>
+                     </div>
+                  </div>
+                  <div class="cart-page__block  cart">
+                     <img src="img/home/image-3.jpg" alt="director-photo">
+                     <div class="cart__social social-block">
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Insta.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Fb.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/twitter.svg" alt="twitter">
+                        </a>
+                     </div>
+                     <div class="cart__content content-cart">
+                        <h3 class="content-cart__title"><a href="#">Madeleine Grant</a>
+                        </h3>
+                        <p class="content-cart__text">Marketing Specialist</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="cart-page-dawn">
+                  <div class="cart-page__block  cart">
+                     <img src="img/home/image-4.jpg" alt="director-photo">
+                     <div class="cart__social social-block">
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Insta.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Fb.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/twitter.svg" alt="twitter">
+                        </a>
+                     </div>
+                     <div class="cart__content content-cart">
+                        <h3 class="content-cart__title"><a href="#">Jonathan Coleman</a>
+                        </h3>
+                        <p class="content-cart__text">Managing Director</p>
+                     </div>
+                  </div>
+                  <div class="cart-page__block  cart">
+                     <img src="img/home/image-5.jpg" alt="director-photo">
+                     <div class="cart__social social-block">
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Insta.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Fb.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/twitter.svg" alt="twitter">
+                        </a>
+                     </div>
+                     <div class="cart__content content-cart">
+                        <h3 class="content-cart__title"><a href="#">Wanda Forsyth</a>
+                        </h3>
+                        <p class="content-cart__text">Designer</p>
+                     </div>
+                  </div>
+                  <div class="cart-page__block  cart">
+                     <img src="img/home/image-6.jpg" alt="director-photo">
+                     <div class="cart__social social-block">
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Insta.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/Fb.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="social-block__link">
+                           <img src="img/home/twitter.svg" alt="twitter">
+                        </a>
+                     </div>
+                     <div class="cart__content content-cart">
+                        <h3 class="content-cart__title"><a href="#">Austin Randall</a>
+                        </h3>
+                        <p class="content-cart__text">Marketing Specialist</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         Footer
+         <!-- <div class="cart">
+            <img src="img/home/Image-2.jpg" alt="director-photo">
+            <div class="cart__social social-block">
+               <a href="#" class="social-block__link">
+                  <img src="img/home/Insta.svg" alt="instagram">
+               </a>
+               <a href="#" class="social-block__link">
+                  <img src="img/home/Fb.svg" alt="facebook">
+               </a>
+               <a href="#" class="social-block__link">
+                  <img src="img/home/twitter.svg" alt="twitter">
+               </a>
+            </div>
+            <div class="cart__content content-cart">
+               <h3 class="content-cart__title"><a href="#">David Simpson</a>
+               </h3>
+               <p class="content-cart__text">Designer</p>
+            </div>
+         </div> -->
+      </footer>
+   </div>
+</body>
+
+</html>
