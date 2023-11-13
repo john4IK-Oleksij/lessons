@@ -1,0 +1,493 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  display: inline-block;
+}
+:focus {
+  outline: none;
+}
+a:focus {
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+}
+a {
+  color: inherit;
+  display: inline-block;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/* =========================== */
+body {
+  margin: 50px;
+}
+.car-wrapper {
+  background-color: rgb(163, 163, 163);
+  width: 1000px;
+  height: 400px;
+}
+.car {
+  transform: scale(0.7);
+}
+.body-car {
+  width: 670px;
+  height: 300px;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+}
+.front {
+  border: 2px solid black;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 250px;
+  height: 140px;
+  border-radius: 60% 40% 0 20%;
+  border: 3px solid rgb(73, 127, 143);
+  border-top: 30px solid darkorange;
+  border-right: 250px solid darkorange;
+  border-bottom: 10px solid darkorange;
+  border-left: 20px solid darkorange;
+  background-color: transparent;
+}
+.block {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  border-radius: 100% 100% 15% 15%;
+  background-color: darkorange;
+  transform: translate(100px, 80px);
+}
+.kolo {
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  border-radius: 50%;
+}
+.kolo-pered {
+  position: absolute;
+  display: inline-block;
+  top: 160px;
+  left: -50px;
+}
+.kolo-zad {
+  position: absolute;
+  display: inline-block;
+  top: 160px;
+  left: 360px;
+}
+.obvod-kolo {
+  width: 130px;
+  height: 130px;
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  transform: translate(-5px, -5px);
+  position: relative;
+}
+.krylo {
+  width: 180px;
+  height: 180px;
+  border: 0px solid transparent;
+  box-shadow: -5px -6px 9px rgba(128, 128, 128, 0.733);
+  border-radius: 50%;
+  transform: translate(-30px, -30px);
+}
+.korpus {
+  transform: translate(45px, 0);
+}
+.bamper-tyl {
+  width: 30px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(88, 88, 88);
+  position: absolute;
+  top: 30px;
+  left: 128px;
+}
+.bamper-front {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(92, 91, 91);
+  border-radius: 15px;
+  position: absolute;
+  top: 33px;
+  left: -55px;
+}
+.door-new {
+  width: 180px;
+  height: 190px;
+  border: 2px solid black;
+  border-radius: 80% 0% 10% 10%;
+  transform: translate(80px, 20px);
+}
+.handle-door {
+  width: 25px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 90px;
+  left: 130px;
+}
+.door-win {
+  width: 140px;
+  height: 70px;
+  border: 2px solid black;
+  position: absolute;
+  top: 4px;
+  left: 32px;
+  border-radius: 1000% 10% 20% 0%;
+  background-color: rgb(169, 210, 226);
+  border-left: 0px;
+  position: relative;
+}
+.door-win span {
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  background-color: white;
+  transform: rotate(-20deg);
+}
+.door-win-tyl {
+  width: 130px;
+  height: 70px;
+  border: 2px solid black;
+  position: absolute;
+  top: 4px;
+  left: 185px;
+  border-radius: 10% 100% 10% 10%;
+  background-color: rgb(169, 210, 226);
+}
+.door-win-tyl span {
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  background-color: white;
+  transform: rotate(-20deg);
+}
+.glass {
+  width: 35px;
+  height: 30px;
+  border-radius: 70%;
+  border-right: 5px solid transparent;
+  border-left: 20px solid black;
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 50px;
+  left: -5px;
+}
+.lob-glass {
+  position: absolute;
+  top: 37px;
+  left: 40px;
+  width: 130px;
+  height: 30px;
+  border-top: 20px solid rgb(169, 210, 226);
+  border-right: 60px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid transparent;
+  border-radius: 100%;
+  transform: rotate(-30.5deg);
+}
+.car-dawn {
+  position: relative;
+  transform: translate(-30px, -350px);
+}
+.kolo-front {
+  position: absolute;
+  top: 292px;
+  left: 127px;
+  width: 115px;
+  height: 115px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.kolo-obvod {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(114, 114, 114);
+  border-radius: 50%;
+  transform: translate(13px, 11px);
+}
+.kolo-center {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(114, 114, 114);
+  border: 20px solid black;
+  border-radius: 50%;
+  transform: translate(4px, 5px);
+}
+.kolo-tyl {
+  position: absolute;
+  top: 292px;
+  left: 537px;
+  width: 115px;
+  height: 115px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.fara {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: transparent;
+  border-top: 0px solid black;
+  border-right: 10px solid transparent;
+  border-bottom: 00px solid blue;
+  border-left: 20px solid rgb(192, 192, 178);
+  transform: rotate(35deg);
+}
+.fara-tyl {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  border-top: 0px solid white;
+  border-right: 15px solid red;
+  border-bottom: 0px solid white;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -35px;
+  left: 103px;
+  transform: rotate(-28deg);
+}
+/* ============================================= */
+/* ================ Transform ========================= */
+.home-2d {
+  max-width: 100%;
+  border: 3px solid darkgreen;
+  margin-bottom: 20px;
+}
+.box {
+  display: inline-block;
+  margin: 30px;
+  width: 250px;
+  height: 150px;
+  color: rgb(118, 166, 255);
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid #730531;
+  background-color: rgb(168, 162, 168);
+}
+.box__item {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+}
+.box:hover .box__item {
+  transform: translate(20px, -20px);
+}
+/* ================== */
+.box__item-scale {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+}
+.box:hover .box__item-scale {
+  transform: scale(0.93);
+  /* transform: scale(-1, 1); */
+}
+/* ================== */
+.box__item-rotate {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+}
+.box:hover .box__item-rotate {
+  transform: rotate(-10deg);
+}
+/* =================== */
+.box__item-skew {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+  position: relative;
+}
+.box__item-skew span {
+  position: relative;
+}
+.box__item-skew:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b30c4f;
+}
+.box:hover .box__item-skew:before {
+  transform: skew(-15deg, 0);
+}
+.box:hover .box__item-skew {
+  background-color: transparent;
+}
+/* ======================== */
+.box__item-origin {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+  /* transition: all 0.5s; */
+}
+.box:hover .box__item-origin {
+  transform: rotate(10deg);
+  transform-origin: 0 0;
+}
+/* ======================== */
+.home-3d {
+  max-width: 100%;
+  border: 3px solid darkgreen;
+}
+.box-3d {
+  /* perspective - це відстань від очей до об'єкта */
+  perspective: 300px; /* potribna dla roboty osi =Z= */
+  perspective-origin: center;
+}
+.box-3d__item-translate {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+}
+.box-3d:hover .box-3d__item-translate {
+  transform: translate3d(5px, 5px, -15px);
+  /* X(horyzont), Y(vertykal), Z(hlybyna)*/
+}
+/* ====================== */
+.box-3d__item-scale {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+}
+.box-3d:hover .box-3d__item-scale {
+  transform: scale3d(1.2, 1.3, 0.7);
+}
+/* ======================= */
+.box-3d__item-rotate {
+  width: 250px;
+  height: 150px;
+  background-color: #b30c4f;
+}
+.box-3d:hover .box-3d__item-rotate {
+  /* transform: rotate3d(30, 3, 1, -45deg); */
+  transform: rotate3d(45, 0, 0, 45deg);
+}
+/* ========================= */
+.box-3d {
+  /* transform-style: flat; */
+  /* тепер ми бачимо об'єкт поза площиною , наскрізь */
+  transform-style: preserve-3d;
+  background-color: rgba(197, 129, 129, 0.493);
+}
+.box-3d__item-flat {
+  width: 250px;
+  height: 150px;
+  transition: all 0.8s;
+  background-color: #b30c4f;
+  /* ефектно коли фон прозорий */
+}
+.box-3d:hover .box-3d__item-flat {
+  transform: rotateY(200deg);
+}
+/* ==================== */
+.box-3d {
+  transform-style: preserve-3d;
+  background-color: rgba(197, 129, 129, 0.493);
+}
+.box-3d__item-backface {
+  width: 250px;
+  height: 150px;
+  transition: all 2s;
+  background-color: #b30c4f;
+}
+.box-3d:hover .box-3d__item-backface {
+  transform: rotateY(180deg);
+  backface-visibility: visible;
+}
+/* ==================================== */
+/* ================ flip-book =============== */
+.flip {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.flip__body {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  perspective: 700px;
+  margin: 0 auto;
+}
+.flip__front,
+.flip__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  color: snow;
+  font-size: 32px;
+  transition: all 1.5s;
+}
+.flip__front {
+  background-color: #730531;
+  transform: rotateY(0deg);
+  transform-origin: 0 0;
+}
+.flip__back {
+  background-color: #b3a725;
+  transform: rotateY(0deg);
+  transform-origin: 0 0;
+  backface-visibility: hidden;
+}
+.flip__body:hover .flip__back {
+  transform: rotateY(0deg);
+  transform-origin: 0 0;
+}
+.flip__body:hover .flip__front {
+  transform: rotateY(-180deg);
+  transform-origin: 0 0;
+  background-color: #a79b20;
+  font-size: 0;
+}
