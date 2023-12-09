@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson-16</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header"></header>
+      <main class="page">
+         <!-- ============== z Figma-homework  ============== -->
+         <div class="info">
+            <h2 class="info__title">My Info</h2>
+            <fieldset class="info__box box-info">
+               <legend class="info__subtitle">Add Address</legend>
+               <form action="#" method="get" enctype="multipart/form-data" class="box-info__user">
+                  <div class="box-info__name">
+                     <div class="box-info__name-one">
+                        <label for="1st-name">First Name
+                           <span>*</span>
+                        </label>
+                        <input type="text" name="1st-name" id="1st-name" required placeholder="First Name">
+                     </div>
+                     <div class="box-info__name-two">
+                        <label for="last-name">Last Name
+                           <span>*</span>
+                        </label>
+                        <input type="text" name="last-name" id="last-name" required placeholder="Last Name">
+                     </div>
+                  </div>
+                  <div class="box-info__count-comp">
+                     <div class="box-info__country">
+                        <label for="count">Country / Region<span>*</span>
+                        </label>
+                        <input type="text" name="country" id="count" required placeholder="Country / Region">
+                     </div>
+                     <div class="box-info__company">
+                        <label for="company">Company Name</label>
+                        <input type="text" name="company" id="company" placeholder="Company (optional)">
+                     </div>
+                  </div>
+                  <div class="box-info__address">
+                     <div class="box-info__street">
+                        <label for="street">Street Address <span>*</span>
+                        </label>
+                        <input type="text" name="street" id="street" required
+                           placeholder="House number and street name">
+                     </div>
+                     <div class="box-info__apt apt-info">
+                        <label class="apt-info__text" for="apt">Apt, suite, unit</label>
+                        <input class="apt-info__box" type="number" name="apt" id="apt"
+                           placeholder="apartment, suite, unit, etc. (optional)">
+                     </div>
+                  </div>
+                  <div class="box-info__contacts">
+                     <div class="box-info__city">
+                        <label for="city">City
+                           <span>*</span>
+                        </label>
+                        <input type="text" name="city" id="city" required placeholder="Town / City">
+                     </div>
+                     <div class="box-info__state state-block">
+                        <label>State
+                           <span>*</span>
+                        </label>
+                        <!-- ============== -->
+                        <select class="state-block__select" name="state">
+                           <option value="state1">State 1</option>
+                           <option value="state2">State 2</option>
+                           <option selected value="state3">State 3</option>
+                        </select>
+                        <!-- =============== -->
+                     </div>
+                  </div>
+                  <div class="box-info__post">
+                     <div class="box-info__phone">
+                        <label for="phone">Phone
+                           <span>*</span>
+                        </label>
+                        <input type="tel" name="phone" id="phone" required placeholder="Phone">
+                     </div>
+                     <div class="box-info__postcode">
+                        <label for="postcode">Postal Code
+                           <span>*</span>
+                        </label>
+                        <input type="number" name="postcode" id="postcode" required placeholder="Postal Code">
+                     </div>
+                  </div>
+                  <div class="box-info__deliv">
+                     <label for="deliv">Delivery Instruction</label>
+                     <textarea placeholder="Delivery Instruction" name="deliv" id="deliv"></textarea>
+                  </div>
+                  <div class="box-info__defaddress adr-info">
+                     <div class="adr-info__ship">
+                        <input class="adr-info__box" type="checkbox" checked name="shipaddr" id="shipaddr">
+                        <label class="adr-info__text" for="shipaddr">Set as default shipping address</label>
+                     </div>
+                     <div class="adr-info__bill">
+                        <input class="adr-info__box" type="checkbox" checked name="billaddr" id="billaddr">
+                        <label class="adr-info__text" for="billaddr">Set as default billing address</label>
+                     </div>
+                  </div>
+                  <div class="box-info__save button-box">
+                     <button class="button-box__save" type="submit">Save</button>
+                     <button class="button-box__cancel" type="button">Cancel</button>
+                  </div>
+               </form>
+            </fieldset>
+         </div>
+         <div class="checkout">
+            <h2 class="checkout__title">Check Out</h2>
+            <fieldset class="checkout__field">
+               <legend class="checkout__subtitle billing-title">Billing Details</legend>
+               <form action="#" method="get" enctype="multipart/form-data" class="checkout__form user">
+                  <div class="user__name name">
+                     <div class="name__first">
+                        <label for="name-first" class="name__text">First Name <span>*</span></label>
+                        <input type="text" required name="name-first" id="name-first" placeholder="First Name"
+                           class="name__box">
+                     </div>
+                     <div class="name__last">
+                        <label for="name__last" class="name__text">Last Name <span>*</span></label>
+                        <input type="text" required id="name__last" placeholder="Last Name" class="name__box">
+                     </div>
+                  </div>
+                  <div class="user__countcomp region">
+                     <div class="region__place">
+                        <label for="region__text" class="region__text">Country / Region <span>*</span></label>
+                        <input type="text" required name="region__text" id="region__text" placeholder="Country / Region"
+                           class="region__box">
+                     </div>
+                     <div class="region__company compname">
+                        <label for="compname__text" class="compname__text">Company Name</label>
+                        <input type="text" name="compname__text" id="compname__text" placeholder="Company (optional)"
+                           class="compname__box">
+                     </div>
+                  </div>
+                  <div class="user__addr address">
+                     <div class="address__street street-adr">
+                        <label for="adr__text" class="street-adr__text">Street Address <span>*</span></label>
+                        <input type="text" id="adr__text" name="adr__text" placeholder="House number and street name"
+                           class="street-adr__box">
+                     </div>
+                     <div class="address__unit apt">
+                        <label for="apt__text" class="apt__text">Apt, suite, unit</label>
+                        <input type="text" placeholder="Apartment, suite, unit, etc. (optional)" id="apt__text"
+                           class="apt__box">
+                     </div>
+                  </div>
+                  <div class="user__state state-us">
+                     <div class="state-us__city town">
+                        <label for="town-text" class="town__text">City <span>*</span></label>
+                        <input type="text" id="town-text" name="town-text" placeholder="Town / City" class="town__box">
+                     </div>
+                     <div class="state-us__state stateuser">
+                        <label class="stateuser__text">State <span>*</span></label>
+                        <select name="stateuser__sel" class="stateuser__body">
+                           <option value="1">Option-1</option>
+                           <option value="2">Option-2</option>
+                           <option selected value="3">Option-3</option>
+                        </select>
+                     </div>
+                     <div class="state-us__postcode codepost">
+                        <label for="codepost__text" class="codepost__text">Postal Code <span>*</span></label>
+                        <input id="codepost__text" required type="number" placeholder="Postal Code"
+                           class="codepost__box">
+                     </div>
+                  </div>
+                  <div class="user__phone usphone">
+                     <label for="usphone__text" class="usphone__text">Phone<span>*</span></label>
+                     <input id="usphone__text" required type="number" name="usphone__text" placeholder="Phone"
+                        class="usphone__box">
+                  </div>
+                  <div class="user__save ">
+                     <button class="user__button" type="button">Continue to delivery</button>
+                     <div class="user__accept save-info">
+                        <input class="save-info__box" type="checkbox" checked name="save-info" id="save-info">
+                        <label class="save-info__text" for="save-info">Save my information for a faster
+                           checkout</label>
+                     </div>
+                  </div>
+               </form>
+            </fieldset>
+            <fieldset class="checkout__field">
+               <legend class="checkout__subtitle shippaddr-title">Shipping Address</legend>
+               <form action="#" method="get" enctype="multipart/form-data" class="checkout__form shippaddr">
+                  <div class="addr-acc">
+                     <h3 class="addr-acc__title">Select the address that matches your card or payment method.</h3>
+                     <div class="addr-acc__radio box-radio">
+                        <div class="addr-acc__box ">
+                           <input class="addr-acc__inp " type="radio" checked name="addr-acc" id="addr-acc__bill"
+                              value="billing">
+                           <label class="addr-acc__lab " for="addr-acc__bill">Same as Billing address</label>
+                        </div>
+                        <div class="addr-acc__box">
+                           <input class="addr-acc__inp " type="radio" name="addr-acc" id="addr-acc__shipp"
+                              value="shipping">
+                           <label class="addr-acc__lab " for="addr-acc__shipp">Use a different shipping
+                              address</label>
+                        </div>
+
+                     </div>
+                  </div>
+               </form>
+            </fieldset>
+            <fieldset class="checkout__field">
+               <legend class="checkout__subtitle shippmet-title">
+                  Shipping Method
+               </legend>
+               <div class="checkout__shipp shipp-method ">
+                  <div class="shipp-method__arrive">
+                     <p> Arrives by Monday, June 7</p>
+                  </div>
+                  <div class="shipp-method__delivpay">
+                     <div class="shipp-method__pay">
+                        <p>Delivery Charges </p>
+                        <span>$5.00</span>
+                     </div>
+                     <p class="shipp-method__notes">Additional fess may apply</p>
+                  </div>
+               </div>
+            </fieldset>
+            <fieldset class="checkout__field">
+               <legend class="checkout__subtitle payment-title">Payment Method</legend>
+               <h3 class="checkout__label">All transactions are secure and encrypted.</h3>
+               <form class="checkout__form payment" action="#" method="get" enctype="multipart/form-data">
+                  <div class="payment__block">
+                     <div class="payment__wrapper credit-box">
+                        <div class="payment__body">
+                           <label for="credit" class="box__lab">
+                              <input checked id="credit" class="box__inp" type="radio" name="payment" value="credit">
+                              <span class="payment__style"></span>
+                              Credit Card
+                           </label>
+                           <p class="credit-box__notes">We accept all major credit cards.</p>
+                        </div>
+                        <div class="credit-box__icons">
+                           <img src="g-pay-icon.svg" alt="g-pay">
+                           <img src="visa-icon.svg" alt="visa">
+                           <img src="paypal-icon.svg" alt="paypal">
+                           <img src="paypass-icon.svg" alt="paypass">
+                        </div>
+                        <div class="credit-box__forms forms-credit">
+                           <div class="forms-credit__body">
+                              <input class="forms-credit__box" type="text" name="card" maxlength="19" required
+                                 placeholder="Card number">
+                           </div>
+                           <div class="forms-credit__body">
+                              <input class="forms-credit__box" type="text" name="card" required
+                                 placeholder="Name of card">
+                           </div>
+                           <div class="forms-credit__body">
+                              <input class="forms-credit__box" type="text" name="card" maxlength="5" required
+                                 placeholder="Expiration date (MM/YY)">
+                           </div>
+                           <div class="forms-credit__body">
+                              <input class="forms-credit__box box-pass" type="password" name="card" maxlength="3"
+                                 required placeholder="Security Code">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="payment__body deliv-box">
+                        <label class="box__lab" for="delivery">
+                           <input class="box__inp" type="radio" name="payment" id="delivery" value="2">
+                           <span class="payment__style"></span>
+                           Cash on
+                           delivery
+                        </label>
+                        <p class="deliv-box__notes">Pay with cash upon
+                           delivery.</p>
+                     </div>
+                     <div class="payment__body payment-box">
+                        <label class="box__lab" for="paypal">
+                           <input class="box__inp" type="radio" name="payment" id="paypal" value="3">
+                           <span class="payment__style"></span>Paypal</label>
+                     </div>
+                  </div>
+               </form>
+            </fieldset>
+            <div class="checkout__send button-send">
+               <button type="submit" class="button-send__pay">Pay Now</button>
+            </div>
+         </div>
+         <div class="call">
+            <div class="call__label">
+               <h2 class="call__title">
+                  Contact Us
+               </h2>
+               <p class="call__text">Request A Call Back !</p>
+            </div>
+            <div class="call__form">
+               <form action="
+               #" method="get" enctype="multipart/form-data" class="call__contacts">
+                  <input placeholder="Your Name" type="text" class="call__name">
+                  <input placeholder="Email Address" type="email" class="call__mail">
+                  <input placeholder="Phone Number" type="number" class="call__phonenum">
+                  <input placeholder="Subject" type="text" class="call__subject">
+                  <textarea class="call__message" placeholder="Message..." name="message" id="message"></textarea>
+               </form>
+            </div>
+
+            <button class="call__submit">Submit </button>
+
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+</body>
+
+</html>
